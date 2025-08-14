@@ -255,3 +255,7 @@ summary {
 .md-typeset h1 {
     color: var(--md-primary-fg-color);
 }
+
+.md-typeset .admonition, .md-typeset details {
+    border-color: var(--md-primary-fg-color);
+}

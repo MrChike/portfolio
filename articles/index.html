@@ -611,6 +611,24 @@
 <h1 id="articles">📰 Articles</h1>
 <h2 id="featured-articles">📝 Featured Articles</h2>
 <details open>
+  <summary>🚀 Series-X: Create Professional Portfolios Using Material for MkDocs</summary>
+  <div class="article-content">
+    <!-- Placeholder image container -->
+    <a id="portfolio-link" target="_blank">
+      <img
+        src="../assets/images/portfolio.png"
+        alt="Article Thumbnail"
+        style="width: 250px; border-radius: 6px;"
+      />
+    </a>
+    <div>
+      <p>Learn how to build a professional portfolio using Material for MkDocs in this hands-on series, covering project setup, theme customization, GitHub Actions automation, and seamless deployment to GitHub Pages, all rooted in real-world development workflows.</p>
+      <a id="portfolio-text-link" target="_blank">Read Full Article →</a>
+    </div>
+  </div>
+</details>
+
+<details open>
   <summary>🛠️ FastAPI in Production: Build, Scale & Deploy - Series B : Services, Queues & Containers</summary>
   <div class="article-content">
     <!-- Placeholder image container -->
@@ -684,6 +702,10 @@
 </details>
 
 <script>
+  const portfolio = "https://dev.to/mrchike/series-x-create-professional-portfolios-using-material-for-mkdocs-fio";
+  document.getElementById("portfolio-link").href = portfolio;
+  document.getElementById("portfolio-text-link").href = portfolio;
+
   const seriesB = "https://dev.to/mrchike/fastapi-in-production-build-scale-deploy-series-b-services-queues-containers-2lfj-temp-slug-3211147?preview=efee997d9f51ba04301f3508a0903c035af4b72f29d08f581f16ac37d7dbdc33c613587a059353fab699658202393fdedef278521c47b37b01ff906f";
   document.getElementById("seriesB-link").href = seriesB;
   document.getElementById("seriesB-text-link").href = seriesB;
