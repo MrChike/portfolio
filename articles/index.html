@@ -611,7 +611,25 @@
 <h1 id="articles">📰 Articles</h1>
 <h2 id="featured-articles">📝 Featured Articles</h2>
 <details open>
-  <summary>🚀 Series-X: Create Professional Portfolios Using Material for MkDocs</summary>
+  <summary>🤝 Learn Front-End by Doing: Contribute to Cal.com's Open Source...🚀</summary>
+  <div class="article-content">
+    <!-- Placeholder image container -->
+    <a id="calcom-link" target="_blank">
+      <img
+        src="../assets/images/calcom.png"
+        alt="Article Thumbnail"
+        style="width: 250px; border-radius: 6px;"
+      />
+    </a>
+    <div>
+      <p>Learn front-end by contributing to Cal.com’s open source project. This hands-on guide walks you through setting up the dev environment with Docker, running the app locally, and navigating tools like RedisInsight and pgAdmin, all while building real-world skills through open source.</p>
+      <a id="calcom-text-link" target="_blank">Read Full Article →</a>
+    </div>
+  </div>
+</details>
+
+<details open>
+  <summary>🚀 Create Professional Portfolios Using Material for MkDocs (Series-X)</summary>
   <div class="article-content">
     <!-- Placeholder image container -->
     <a id="portfolio-link" target="_blank">
@@ -683,7 +701,7 @@
 </details>
 
 <details open>
-  <summary>How to Learn Effectively & Efficiently as a Professional in any Field. 🧠⏱️🎯</summary>
+  <summary>🧠 Master the Art of Learning Efficiently (A Memo for Lifelong Learners). ⏱️🎯</summary>
   <div class="article-content">
     <!-- Placeholder image container -->
     <a id="efficient_learning-link" target="_blank">
@@ -702,6 +720,10 @@
 </details>
 
 <script>
+  const calcom = "https://dev.to/mrchike/learn-front-end-by-doing-contribute-to-calcoms-open-source-4ne5";
+  document.getElementById("calcom-link").href = calcom;
+  document.getElementById("calcom-text-link").href = calcom;
+
   const portfolio = "https://dev.to/mrchike/series-x-create-professional-portfolios-using-material-for-mkdocs-fio";
   document.getElementById("portfolio-link").href = portfolio;
   document.getElementById("portfolio-text-link").href = portfolio;
